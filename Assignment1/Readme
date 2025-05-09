@@ -1,0 +1,42 @@
+# Marvellous Logic Building Assignment : 1 💡
+
+This repository contains five logic-building programs in C. Each file is named using the format `A1QX.c`, where `X` is the question number.
+
+All programs are implemented with proper *C coding conventions*, including:
+- Clear and meaningful function/variable names
+- Proper use of constants/macros
+- Consistent indentation
+
+
+---
+
+## 🧩 Problem Statements
+
+### A1Q1 - Divide Two Numbers
+Accept two integers and perform division. Handle divide-by-zero cases properly.
+
+### A1Q2 - Print "Marvellous" 5 Times
+Display the word **"Marvellous"** five times using a loop.
+
+### A1Q3 - Print Numbers from 5 to 1
+Print numbers from **5 down to 1** using a `while` loop.
+
+### A1Q4 - Check Divisibility by 5
+Check whether a given number is divisible by 5. Return TRUE or FALSE accordingly.
+
+### A1Q5 - Print N Asterisks
+Accept a number from the user and print that many `*` symbols on screen.
+
+---
+
+## 🛠 How to Compile & Run
+
+Use the following commands to compile each file with a custom executable name (`myexe`) and then run it:
+
+### 🔧 Compile:
+```bash
+gcc A1Q1.c -o myexe      # For Question 1
+gcc A1Q2.c -o myexe      # For Question 2
+gcc A1Q3.c -o myexe      # For Question 3
+gcc A1Q4.c -o myexe      # For Question 4
+gcc A1Q5.c -o myexe      # For Question 5
