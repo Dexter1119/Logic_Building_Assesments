@@ -1,0 +1,59 @@
+# Logic Building Programs – Set 3
+
+This repository contains a collection of C programs focused on logic building.  
+Each program is implemented in a separate file using the naming convention `A3Q1.c`, `A3Q2.c`, ..., `A3Q5.c` where:
+- `A3` indicates the program set
+- `Q1`, `Q2`, etc., refer to the specific question number.
+
+## Coding Standards
+- Proper indentation and consistent formatting are maintained.
+- Each program is contained in a dedicated file.
+- Clear and descriptive variable names are used.
+- The `main` function and helper (service provider) functions are modular and well-structured.
+- Input validation is included where appropriate.
+- Programs have been tested with a variety of inputs to ensure correctness.
+
+---
+
+## Problem Descriptions
+
+### A3Q1: Print Even Numbers
+- Accept one number from the user.
+- Print that many even numbers starting from 2.
+- **Input:** 7  
+- **Output:** 2 4 6 8 10 12 14
+
+### A3Q2: Display Even Factors
+- Accept a number from the user.
+- Print all of its even factors.
+- **Input:** 24  
+- **Output:** 2 4 6 8 12
+
+### A3Q3: Display Only Even Factors (Also Divisible by 2)
+- Accept a number from the user.
+- Print only even factors of the number.
+- **Input:** 36  
+- **Output:** 2 6 12 18
+
+### A3Q4: Convert Character Case
+- Accept a character from the user.
+- Convert its case (uppercase to lowercase or vice versa).
+- **Input:** `a` → **Output:** `A`  
+- **Input:** `D` → **Output:** `d`
+
+### A3Q5: Check Vowel
+- Accept a character from the user.
+- Check whether it is a vowel (`a, e, i, o, u`, case-insensitive).
+- Return `TRUE` or `FALSE` accordingly.
+- **Input:** `E` → **Output:** It is Vowel  
+- **Input:** `d` → **Output:** It is not Vowel
+
+---
+
+## Compilation Instructions
+
+To compile any of the programs, use the following command:
+
+```bash
+gcc A3Q1.c -o myexe
+./myexe
