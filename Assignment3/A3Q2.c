@@ -19,7 +19,7 @@ void DisplayFactor(int iNo)
     int iCnt = 0;
     for(iCnt = 1; iCnt <= iNo ; iCnt++)
     {
-        if(((iNo % iCnt) == 0))
+        if((iNo % iCnt) == 0)
         {
             printf("%d\t",iCnt);
         }
