@@ -1,7 +1,7 @@
 
 ///////////////////////////////////////////////////////////////////////////
 // 
-// Name:        A3Q5.c
+// Name:        A3Q2.c
 // Description: Program to print factors
 // Author:      Pradhumnya Changdev Kalsait
 // Assignment:  Assignement 3 Question 2
