@@ -23,7 +23,7 @@ Each program is implemented in a separate file using the naming convention `A3Q1
 - **Input:** 7  
 - **Output:** 2 4 6 8 10 12 14
 
-### A3Q2: Display Even Factors
+### A3Q2: Display Factors
 - Accept a number from the user.
 - Print all of its even factors.
 - **Input:** 24  
