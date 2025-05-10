@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////
 // 
-// Name:        A1Q2.c
+// Name:        A2Q2.c
 // Description: Program to print n number of * on screen
 // Author:      Pradhumnya Changdev Kalsait
 // Assignment:  Assignement 2 Question 2
