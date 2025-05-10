@@ -2,7 +2,7 @@
 
 ///////////////////////////////////////////////////////////////////////////
 // 
-// Name:        A3Q5.c
+// Name:        A3Q4.c
 // Description: Program to Change the Case of Character
 // Author:      Pradhumnya Changdev Kalsait
 // Assignment:  Assignement 3 Question 4
