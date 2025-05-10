@@ -11,20 +11,20 @@
 
 
 #include<stdio.h>
-#include<stdBool.h>
+
 #define TRUE 1
 #define FALSE -1
 
 
-bool ChkEven(int iNo1)
+int ChkEven(int iNo1)
 {
     if(iNo1 % 2 == 0)
     {
-        return true;
+        return TRUE;
     }
     else
     {
-        return false;
+        return FALSE;
     }
 }
 
@@ -35,10 +35,10 @@ int main()
     printf("ENter the Number :");
     scanf("%d",&iValue);
 
-    bool bRet = 0;
-    bRet = ChkEven(iValue);
+    int iRet = 0;
+    iRet = ChkEven(iValue);
 
-    if(bRet == true){
+    if(iRet == TRUE){
         printf("%d is Even",iValue);
     }
     else{
