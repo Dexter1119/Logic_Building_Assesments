@@ -1,8 +1,8 @@
 
 //////////////////////////////////////////////////////////////////////////
 // 
-// Name:        A3Q5.c
-// Description: Program to check the number is even or Not
+// Name:        A3Q1.c
+// Description: Program to print the number is even 
 // Author:      Pradhumnya Changdev Kalsait
 // Assignment:  Assignement 3 Question 1
 // Date:        09-05-25
