@@ -1,7 +1,7 @@
 
 //////////////////////////////////////////////////////////////
 // 
-// Name:        A2Q3.c
+// Name:        A2Q4.c
 // Description: Program to print the number n times
 // Author:      Pradhumnya Changdev Kalsait
 // Assignment:  Assignement 2 Question 4
@@ -13,6 +13,10 @@
 void Display(int iNo1 ,int frequency)
 {
     int iCnt = 0;
+     if(frequency < 0)
+    {
+        frequency = -frequency;
+    }
     for(iCnt = 1; iCnt <= frequency; iCnt++)
     {
         printf("%d \t",iNo1);
