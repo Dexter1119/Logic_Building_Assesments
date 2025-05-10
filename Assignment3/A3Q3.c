@@ -1,7 +1,7 @@
 
 ///////////////////////////////////////////////////////////////////////////
 // 
-// Name:        A3Q5.c
+// Name:        A3Q3.c
 // Description: Program to print even factors
 // Author:      Pradhumnya Changdev Kalsait
 // Assignment:  Assignement 3 Question 3
