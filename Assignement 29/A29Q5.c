@@ -58,6 +58,11 @@ void DisplayChars(char str[],int iSize)
 
     while((iRet = read(fd , Buffer,BUFFER_SIZE)) != 0)
     {
+        if(iRet >iSize)
+        {
+            write(1,Buffer,iSize);
+            break;
+        }
         write(1,Buffer,iRet);
         iSize = iSize - iRet;
         if(iSize <= 0)
@@ -65,6 +70,7 @@ void DisplayChars(char str[],int iSize)
             break;
         }
         memsetX(Buffer,'\0',BUFFER_SIZE);
+
     }
 
     close(fd);
