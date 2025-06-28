@@ -92,7 +92,7 @@ int SearchLastOcc( PNODE first , int iNo )
     {
         return -1;
     }
-
+    int iTrace = 0;
     int iCnt = 0;
 
     while(first != NULL)
@@ -100,12 +100,12 @@ int SearchLastOcc( PNODE first , int iNo )
         iCnt++;
         if((first)-> data == iNo)
         {
-            continue;
+            iTrace = iCnt;
         }
         first = first->next;
     }
 
-    return iCnt;
+    return iTrace;
 
 }
 int main()
