@@ -40,11 +40,11 @@ int FirstOccurance(char *str , char ch)
        if(*str == ch || *str == ch + Displ)
        {
            iIndex = str - start;
-           break;
+           
        }
        str++;
     }
-   return iIndex-1; // for index
+   return iIndex; // for index
 }
 
 int main()
